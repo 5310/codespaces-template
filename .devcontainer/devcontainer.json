@@ -18,7 +18,8 @@
 				"serayuzgur.crates",
 				"tamasfe.even-better-toml",
 				"mutantdino.resourcemonitor",
-				"rust-lang.rust-analyzer"
+				"rust-lang.rust-analyzer",
+				"schoero.tagged-template-syntax-highlighting"
 			]
 		}
 	}
