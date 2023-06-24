@@ -8,6 +8,6 @@
 	"requireConfig": false,
 	"trailingComma": "all",
 	"bracketSpacing": true,
-	"jsxBracketSameLine": false,
+	"bracketSameLine": false,
 	"semi": true
 }
