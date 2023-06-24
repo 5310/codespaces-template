@@ -1,5 +1,5 @@
 {
-	"image": "mcr.microsoft.com/devcontainers/universal:2",
+	"image": "mcr.microsoft.com/devcontainers/universal:linux",
 	"features": {
 		"ghcr.io/devcontainers/features/rust:1": {
 			"version": "latest",
@@ -22,7 +22,14 @@
 				"serayuzgur.crates",
 				"tamasfe.even-better-toml",
 				"rust-lang.rust-analyzer"
-			]
+			],
+			"settings": {
+				"editor.insertSpaces": false,
+				"editor.tabSize": 4,
+				"git.enableSmartCommit": true,
+				"git.autofetch": true,
+				"deno.enable": true
+			}			
 		}
 	}
 }
