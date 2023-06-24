@@ -13,13 +13,15 @@
 	"customizations": {
 		"vscode": {
 			"extensions": [
+				"mutantdino.resourcemonitor",
+				"esbenp.prettier-vscode",
+				"schoero.tagged-template-syntax-highlighting",
+				"plievone.vscode-template-literal-editor",
 				"denoland.vscode-deno",
 				"vadimcn.vscode-lldb",
 				"serayuzgur.crates",
 				"tamasfe.even-better-toml",
-				"mutantdino.resourcemonitor",
-				"rust-lang.rust-analyzer",
-				"schoero.tagged-template-syntax-highlighting"
+				"rust-lang.rust-analyzer"
 			]
 		}
 	}
