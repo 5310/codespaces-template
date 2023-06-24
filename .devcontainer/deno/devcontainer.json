@@ -1,22 +1,22 @@
 {
-	"image": "mcr.microsoft.com/devcontainers/universal:linux",
-	"customizations": {
-		"vscode": {
-			"extensions": [
-				"mutantdino.resourcemonitor",
-				"esbenp.prettier-vscode",
-				"schoero.tagged-template-syntax-highlighting",
-				"plievone.vscode-template-literal-editor",
-				"denoland.vscode-deno"
-			],
-			"settings": {
-				"editor.insertSpaces": false,
-				"editor.tabSize": 4,
-				"git.enableSmartCommit": true,
-				"git.autofetch": true,
-				"deno.enable": true
-			},
-			"postStartCommand": "curl -fsSL https://deno.land/x/install/install.sh | sh"
-		}
-	}
+  "image": "mcr.microsoft.com/devcontainers/universal:linux",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "mutantdino.resourcemonitor",
+        "esbenp.prettier-vscode",
+        "schoero.tagged-template-syntax-highlighting",
+        "plievone.vscode-template-literal-editor",
+        "denoland.vscode-deno"
+      ],
+      "settings": {
+        "editor.insertSpaces": false,
+        "editor.tabSize": 4,
+        "git.enableSmartCommit": true,
+        "git.autofetch": true,
+        "deno.enable": true
+      },
+      "postStartCommand": "curl -fsSL https://deno.land/x/install/install.sh | sh"
+    }
+  }
 }
